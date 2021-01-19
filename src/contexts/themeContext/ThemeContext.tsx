@@ -3,10 +3,7 @@ import merge from 'lodash/merge';
 
 import { replaceCssShorthand, ThemeType } from './utils/replaceCssShorthand';
 
-import {
-  StyledComponentsThemeProvider,
-  useTheme,
-} from '../../styles/styledComponents';
+import { StyledComponentsThemeProvider } from '../../styles/styledComponents';
 import { defaultTheme } from '../../styles/themeConstants';
 import { formatDotNotation } from './utils/formatDotNotation';
 
