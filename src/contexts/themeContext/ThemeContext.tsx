@@ -17,7 +17,7 @@ export type ThemeProviderInputValue = {
 export const ThemeProvider: React.FC<ThemeProviderInputValue> = (props) => {
   const { children, style } = props;
   const theme = useTheme();
-  const modifiedTheme = theme || defaultTheme;
+  const modifiedTheme = defaultTheme;
 
   if (style) {
     const formattedStyle = replaceCssShorthand(style);
